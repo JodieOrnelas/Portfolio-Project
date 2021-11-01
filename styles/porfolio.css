@@ -1,0 +1,45 @@
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Major Mono Display', monospace;*/
+
+body {
+  background-color: yellow;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+}
+
+h3 {
+  font-family: "Homemade Apple", cursive;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.typing > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 5s steps(50);
+}
+.typing > *::before {
+  content: "Hello";
+  position: absolute;
+  display: block;
+  top: 2.1em;
+  left: 0.25em;
+  width: 1em;
+  height: 0.1em;
+  border-radius: 100%;
+  background: #fff;
+  animation: typingSpeak 0.5s steps(2);
+  animation-iteration-count: 5;
+}
+.typing > *::after {
+  content: "...";
+  display: block;
+  position: absolute;
+  top: 1em;
+  left: 0.35em;
+}
