@@ -11,6 +11,7 @@ COLORS
 #d7b2b5 silver
 #76785c dimgray
 #b2817f rosy-brown
+#a396bd dark-gray
 */
 
 body {
@@ -25,16 +26,77 @@ body {
 }
 
 h1 {
+  font-size: 55px;
   font-family: "Major Mono Display", monospace;
 }
 .hero h2 {
+  font-size: 40px;
   font-family: "Oleo Script", cursive;
   font-size: 20px;
 }
+h2 {
+  font-weight: 200;
+  font-size: 40px;
+  margin: 0;
+}
 h3 {
+  font-size: 45px;
   font-family: "Homemade Apple", cursive;
 }
 
 p {
+  font-size: 20px;
   font-family: "Cormorant Garamond", serif;
+}
+
+.featured-img {
+  border-radius: 20px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.btn-featured {
+  padding: 20px;
+  background-color: #d7b2b5;
+}
+
+.btn-featured a {
+  color: #382012;
+  text-decoration: none;
+}
+
+.btn-featured:hover {
+  background-color: #bb9093;
+}
+
+.more-option {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #a396bdcb;
+}
+
+.btn-more {
+  padding: 15px;
+  border-radius: 50px;
+  margin: 2px;
+  background-color: #76785c;
+}
+
+.btn-more:hover {
+  background-color: #61634a;
+}
+
+.btn-more a {
+  color: white;
+  text-decoration: none;
+}
+
+.more h3 {
+  font-family: "Oleo Script", cursive;
 }
