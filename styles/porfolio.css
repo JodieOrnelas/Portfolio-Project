@@ -5,8 +5,8 @@ font-family: 'Homemade Apple', cursive;
 font-family: 'Major Mono Display', monospace;
 //
 COLORS
-#e0d5cc light-gray
-#f6c6b7 light-pink
+ #e0d5cc light-gray
+ #f6c6b7 light-pink 
 #382012  black
 #d7b2b5 silver
 #76785c dimgray
@@ -14,25 +14,22 @@ COLORS
 */
 
 body {
+  text-align: center;
   color: #382012;
-  background-image: url(https://wallpaper.dog/large/10867112.jpg);
-  background-repeat: stretch;
+  background-color: #e0d5cc;
 }
 
-.main {
-  text-align: center;
+.hero {
   background-color: #f6c6b7;
-  padding: 20px 100px;
-  margin-top: 40px;
-  border-radius: 20px;
+  padding: 20px;
 }
 
 h1 {
   font-family: "Major Mono Display", monospace;
 }
-h2 {
-  font-weight: 200;
-  font-size: 25px;
+.hero h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 20px;
 }
 h3 {
   font-family: "Homemade Apple", cursive;
