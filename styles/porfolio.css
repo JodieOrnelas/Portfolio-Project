@@ -1,45 +1,43 @@
-/*font-family: 'Cormorant Garamond', serif;
+/*
+FONTS
+font-family: 'Cormorant Garamond', serif;
 font-family: 'Homemade Apple', cursive;
-font-family: 'Major Mono Display', monospace;*/
+font-family: 'Major Mono Display', monospace;
+//
+COLORS
+#e0d5cc light-gray
+#f6c6b7 light-pink
+#382012  black
+#d7b2b5 silver
+#76785c dimgray
+#b2817f rosy-brown
+*/
 
 body {
-  background-color: yellow;
+  color: #382012;
+  background-image: url(https://wallpaper.dog/large/10867112.jpg);
+  background-repeat: stretch;
+}
+
+.main {
+  text-align: center;
+  background-color: #f6c6b7;
+  padding: 20px 100px;
+  margin-top: 40px;
+  border-radius: 20px;
 }
 
 h1 {
   font-family: "Major Mono Display", monospace;
 }
-
+h2 {
+  font-weight: 200;
+  font-size: 25px;
+}
 h3 {
   font-family: "Homemade Apple", cursive;
 }
 
 p {
   font-family: "Cormorant Garamond", serif;
-}
-
-.typing > * {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typingAnim 5s steps(50);
-}
-.typing > *::before {
-  content: "Hello";
-  position: absolute;
-  display: block;
-  top: 2.1em;
-  left: 0.25em;
-  width: 1em;
-  height: 0.1em;
-  border-radius: 100%;
-  background: #fff;
-  animation: typingSpeak 0.5s steps(2);
-  animation-iteration-count: 5;
-}
-.typing > *::after {
-  content: "...";
-  display: block;
-  position: absolute;
-  top: 1em;
-  left: 0.35em;
 }
