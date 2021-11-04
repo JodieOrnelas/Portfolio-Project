@@ -120,3 +120,17 @@ p {
 .md {
   max-width: 200px;
 }
+
+footer a {
+  color: #382012;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer a:hover {
+  color: #7a6e92cb;
+}
+
+.contact-footer a {
+  font-size: 50px;
+}
