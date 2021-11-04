@@ -100,3 +100,23 @@ p {
 .more h3 {
   font-family: "Oleo Script", cursive;
 }
+
+.bg-green {
+  background-color: #76785c;
+}
+
+.bg-green a {
+  color: #e0d5cc;
+}
+
+.bg-green a:hover {
+  color: #d7b2b5;
+}
+
+.sm {
+  max-width: 89px;
+}
+
+.md {
+  max-width: 200px;
+}
