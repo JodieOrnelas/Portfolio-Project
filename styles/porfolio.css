@@ -134,3 +134,17 @@ footer a:hover {
 .contact-footer a {
   font-size: 50px;
 }
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact a {
+  font-size: 90px;
+  color: #d7b2b5;
+}
+
+.contact a:hover {
+  color: #bb9093;
+}
