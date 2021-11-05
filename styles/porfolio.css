@@ -148,3 +148,14 @@ footer a:hover {
 .contact a:hover {
   color: #bb9093;
 }
+
+.gallery {
+  max-width: 100%;
+  border: 10px double #d7b2b5;
+  border-radius: 42px;
+}
+
+.number {
+  font-size: 30px;
+  font-family: cursive;
+}
