@@ -61,6 +61,7 @@ p {
 }
 
 .btn-featured a {
+  font-size: 20px;
   color: #382012;
   text-decoration: none;
 }
@@ -158,4 +159,20 @@ footer a:hover {
 .number {
   font-size: 30px;
   font-family: cursive;
+}
+
+.btn-visit {
+  padding: 10px;
+  background-color: #a396bdcb;
+  border-radius: 40px;
+}
+
+.btn-visit a {
+  font-size: 15px;
+  color: #382012;
+  text-decoration: none;
+}
+
+.btn-visit:hover {
+  background-color: #7a6e92cb;
 }
